@@ -56,6 +56,56 @@ Tecnologias previstas para evolução futura:
 
 ---
 
+## 📋 Levantamento de Requisitos
+O levantamento de requisitos foi realizado com base na análise do público-alvo escolar (responsáveis, estudantes, professores e visitantes) e nas necessidades institucionais de comunicação e captação. A partir desse processo, identificou-se a demanda por uma interface limpa, moderna, totalmente responsiva e acessível, com foco na apresentação das etapas de ensino, mural de avisos dinâmico, galeria de atividades e formulário estruturado para contato direto com a secretaria e coordenação.
+
+---
+
+## ⚙️ Requisitos Funcionais (RF)
+
+| ID | Requisito | Descrição |
+| :--- | :--- | :--- |
+| **RF01** | **Página Inicial Institucional** | O sistema deve exibir banners de destaque, apresentação breve da escola, comunicados recentes e atalhos rápidos para as áreas de maior interesse. |
+| **RF02** | **Apresentação Institucional ("Sobre a Escola")** | O sistema deve disponibilizar histórico, missão, visão, valores, corpo docente e proposta pedagógica. |
+| **RF03** | **Divulgação de Níveis de Ensino** | O sistema deve detalhar as etapas ofertadas (Educação Infantil, Ensino Fundamental, Ensino Médio/Técnico), grade curricular e horários de funcionamento. |
+| **RF04** | **Mural de Notícias e Eventos** | O sistema deve listar comunicados oficiais, calendário escolar, feiras culturais e eventos com suporte a texto, data e imagens. |
+| **RF05** | **Galeria de Mídia e Projetos** | O sistema deve disponibilizar álbuns de fotos e registros visuais de atividades pedagógicas, feiras de ciências e instalações físicas. |
+| **RF06** | **Canal de Atendimento e Contato** | O sistema deve oferecer formulário com os campos: *Nome*, *E-mail*, *WhatsApp/Telefone*, *Setor/Assunto* e *Mensagem*. |
+| **RF07** | **Acesso ao Portal do Aluno / Login** | O sistema deve conter botão de acesso direto ao ambiente restrito de boletim, frequência e comunicados individuais. |
+| **RF08** | **Integração com Redes Sociais** | O site deve conter links de redirecionamento para as redes sociais oficiais da instituição (Instagram, Facebook, YouTube). |
+| **RF09** | **Menu de Navegação Estruturado** | Apresentar menu superior responsivo dividindo as seções: *Início*, *Institucional*, *Ensino*, *Notícias*, *Galeria* e *Contato*. |
+
+---
+
+## 🔒 Requisitos Não Funcionais (RNF)
+
+| ID | Categoria | Descrição |
+| :--- | :--- | :--- |
+| **RNF01** | **Desempenho** | O site deve carregar completamente em até 3 segundos em condições normais de conexão. |
+| **RNF02** | **Segurança** | O portal deve operar integralmente sob o protocolo **HTTPS**, garantindo a integridade dos dados trafegados nos formulários. |
+| **RNF03** | **Usabilidade e Identidade Visual** | A interface deve seguir padrão cromático e tipográfico institucional, com boa legibilidade, contraste adequado e feedback visual (*hover*) nos elementos interativos. |
+| **RNF04** | **Responsividade e Acessibilidade** | O layout deve ser adaptável a dispositivos móveis (*Mobile First*), conter atributos `alt` em imagens e garantir navegação acessível. |
+| **RNF05** | **Manutenibilidade** | Código limpo, modular e estruturado em HTML5 semântico, CSS3 e JavaScript organizado para facilitar expansões futuras. |
+| **RNF06** | **Disponibilidade** | O sistema deve manter alta disponibilidade (meta de 99,5%), com interrupções restritas a manutenções programadas. |
+| **RNF07** | **Portabilidade** | Compatibilidade assegurada com os principais navegadores modernos (Google Chrome, Firefox, Safari e Edge). |
+| **RNF08** | **Conformidade (LGPD)** | Os dados coletados no formulário de contato devem ser tratados em conformidade com as diretrizes da Lei Geral de Proteção de Dados. |
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+- **HTML5** (Semântico e acessível)
+- **CSS3** (Estilização moderna e responsiva)
+- **JavaScript** (Interatividade e validações)
+- **GitHub Pages** (Hospedagem e deploy)
+
+---
+
+## 🚀 Como Executar o Projeto
+
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/eraldogd/ne2.git](https://github.com/eraldogd/ne2.git)
+
 ## Como executar ou visualizar o front-end
 
 ### Opção 1 - GitHub Pages
